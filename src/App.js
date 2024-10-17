@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import BasicStateEx from "./components/basicStateExample";
 import LessText from "./components/Lesstext";
 import Numbers from "./components/Numbers";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <BasicStateEx />
